@@ -22,13 +22,6 @@
     <br>
     <br>
     <div class="button-container">
-        <button class="custom-button"><a href="https://www.instagram.com/ace.academy.sy/"> احجز الان</a></button>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
         <div class="container">
             <!-- الجهة اليسرى -->
             <div class="side left">
@@ -64,25 +57,25 @@
             <br>
             <br>
             <br>
+            <section id="booking">
+                <h2>احجز الآن</h2>
+                <form id="bookingForm" action="process_booking.php" method="POST">
+                    <label for="name">اسمك:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="date">التاريخ:</label>
+                    <input type="date" id="date" name="date" required>
+            
+                    <label for="time">الوقت:</label>
+                    <input type="time" id="time" name="time" required>
+            
+                    <button type="submit">تأكيد الحجز</button>
+                </form>
+            </section>
             <footer>
         <p>تابعونا على إنستغرام: 
             <a href="https://www.instagram.com/ace.academy.sy/" target="_blank">@ace.academy.sy</a>
         </p>
-        <section id="booking">
-            <h2>احجز الآن</h2>
-            <form id="bookingForm" action="process_booking.php" method="POST">
-                <label for="name">اسمك:</label>
-                <input type="text" id="name" name="name" required>
-        
-                <label for="date">التاريخ:</label>
-                <input type="date" id="date" name="date" required>
-        
-                <label for="time">الوقت:</label>
-                <input type="time" id="time" name="time" required>
-        
-                <button type="submit">تأكيد الحجز</button>
-            </form>
-        </section>
     </footer>
 </body>
 </html>
